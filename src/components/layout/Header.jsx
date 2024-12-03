@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import React, { Suspense, lazy, useState } from "react";
 import { orange } from "../../constants/color";
+import { orangeDark } from "../../constants/color";
 import {
   Add as AddIcon,
   Menu as MenuIcon,
@@ -78,7 +79,7 @@ const Header = () => {
         <AppBar
           position="static"
           sx={{
-            bgcolor: orange,
+            bgcolor: orangeDark,
           }}
         >
           <Toolbar>
